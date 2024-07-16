@@ -7,7 +7,7 @@ import Link from "next/link";
 import { Heading } from "@/components/Heading";
 import style from "./error/error.module.css";
 import banner from "./error/500.png";
-import { ArrowBack } from "@/components/Icons/arrowBack";
+import { ArrowBack } from "@/components/Icons/ArrowBack";
 
 export default function Error({ error }) {
   useEffect(() => {
