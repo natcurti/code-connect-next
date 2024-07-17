@@ -16,3 +16,12 @@ body {
   gap: 28px;
   min-height: 100vh;
 }
+
+a:visited {
+  color: #81fe88;
+}
+
+::backdrop {
+  background-color: #171d1f;
+  opacity: 0.8;
+}

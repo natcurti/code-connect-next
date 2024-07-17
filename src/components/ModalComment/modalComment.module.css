@@ -1,0 +1,31 @@
+.title {
+  color: #81fe88;
+  font-size: 31px;
+}
+
+.textArea {
+  background-color: #bcbcbc;
+  width: 100%;
+  border-radius: 8px;
+  padding: 1rem;
+  resize: none;
+  font-family: var(--prompt);
+}
+
+.textArea::placeholder {
+  color: #3e3e3f;
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form button {
+  align-self: end;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

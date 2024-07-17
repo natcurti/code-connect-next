@@ -10,6 +10,7 @@ export const metadata = {
 
 const prompt = Prompt({
   weight: ["400", "600"],
+  variable: "--prompt",
   subsets: ["latin"],
   display: "swap",
 });

@@ -33,6 +33,7 @@ const getAllPosts = async (page, search) => {
       },
       include: {
         author: true,
+        comments: true,
       },
     });
     return { data: posts, prev, next };
