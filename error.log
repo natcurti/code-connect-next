@@ -1,1 +1,3 @@
 {"error":{},"level":"error","message":"Falha ao obter o post com o slug","slug":"introducao-ao-reacts"}
+{"error":{"clientVersion":"5.16.2","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.16.2","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}

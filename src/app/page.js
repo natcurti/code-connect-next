@@ -29,7 +29,7 @@ const getAllPosts = async (page, search) => {
       skip,
       where,
       orderBy: {
-        createdAt: "desc",
+        id: "desc",
       },
       include: {
         author: true,
