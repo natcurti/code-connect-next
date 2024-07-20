@@ -5,6 +5,7 @@ import { Chat } from "../Icons/Chat";
 import { Modal } from "../Modal";
 import styles from "./modalComment.module.css";
 import { SubmitButton } from "../SubmitButton";
+import { Textarea } from "../Textarea";
 
 export const ModalComment = ({ action }) => {
   const modalRef = useRef(null);
@@ -18,11 +19,7 @@ export const ModalComment = ({ action }) => {
           action={action}
           onSubmit={() => modalRef.current.closeModal()}
         >
-          <textarea
-            name="text"
-            className={styles.textArea}
-            placeholder="Digite o seu comentário"
-          />
+          <Textarea name="text" placeholder="Digite o seu comentário" />
           <SubmitButton>Comentar</SubmitButton>
         </form>
       </Modal>
